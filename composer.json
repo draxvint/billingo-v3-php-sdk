@@ -1,0 +1,36 @@
+{
+    "name": "polynar/billingo-v3-php-sdk",
+    "description": "",
+    "keywords": [
+        "swagger",
+        "php",
+        "sdk",
+        "api",
+        "billingo"
+    ],
+    "homepage": "https://github.com/polynar/billingo-v3-php-sdk",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Swagger and contributors",
+            "homepage": "https://github.com/swagger-api/swagger-codegen"
+        },
+        {
+            "name": "David Polynar",
+            "homepage": "davd.polynar.hu"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.4.1"
+    },
+    "autoload": {
+        "psr-4": { "Swagger\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Swagger\\Client\\" : "test/" }
+    }
+}
