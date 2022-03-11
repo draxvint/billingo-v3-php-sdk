@@ -201,6 +201,7 @@ class OneOfModificationDocumentInsertItemsItems implements ModelInterface, Array
      *
      * @return boolean
      */
+    #[\ReturnTypeWillChange]
     public function offsetExists($offset)
     {
         return isset($this->container[$offset]);
@@ -226,6 +227,7 @@ class OneOfModificationDocumentInsertItemsItems implements ModelInterface, Array
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetSet($offset, $value)
     {
         if (is_null($offset)) {
