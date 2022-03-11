@@ -242,6 +242,7 @@ class OneOfModificationDocumentInsertItemsItems implements ModelInterface, Array
      *
      * @return void
      */
+    #[\ReturnTypeWillChange]
     public function offsetUnset($offset)
     {
         unset($this->container[$offset]);
